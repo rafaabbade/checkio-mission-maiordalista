@@ -1,19 +1,14 @@
-def soma(a,b):
+def maior_elemento(lista):
     # escreva aqui seu código
     return None
 
 
 print("Example:")
-print(soma(3,2))
+print(maior_elemento([1,2,3,4,5,6,7]))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
-# testa a função com números positivos como parâmetros
-assert soma(2, 3) == 5 
-    
-# testa a função com um número negativo como parâmetro
-assert soma(-1, 5) == 4
-    
-# testa a função com zero como parâmetro
-assert soma(0, 0) == 0
+assert maior_elemento([1, 2, 3, 4, 5]) == 5 
+assert maior_elemento([10, 20, 30, 40, 50]) == 50
+assert maior_elemento([0, -10, 20, -30, 40]) == 40
     
 print("Seu código passou pelos testes, clique em Check para avançar!")
