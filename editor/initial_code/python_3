@@ -10,5 +10,6 @@ print(maior_elemento([1,2,3,4,5,6,7]))
 assert maior_elemento([1, 2, 3, 4, 5]) == 5 
 assert maior_elemento([10, 20, 30, 40, 50]) == 50
 assert maior_elemento([0, -10, 20, -30, 40]) == 40
+assert maior_elemento([-1,-2])==-1
     
 print("Seu código passou pelos testes, clique em Check para avançar!")
